@@ -32,7 +32,7 @@ header{
     justify-content: center;
 }
 .header2{
-    background: rgb(133, 198, 218);
+    background: rgb(90, 181, 209);
     display: flex;
     justify-content: flex-end;
 }
@@ -40,35 +40,35 @@ table{
     border-radius: 10px;
 }
 .kompiuterebi{
-    color: gray;
+    color: rgb(92, 84, 84);
 }
 .kompiuterebi:hover{
     color: black;
     cursor: pointer;
 }
 .tv{
-    color: gray;
+    color: rgb(92, 84, 84);
 }
 .tv:hover{
     color: black;
     cursor: pointer;
 }
 .tech{
-    color: gray;
+    color: rgb(92, 84, 84);
 }
 .tech:hover{
     color: black;
     cursor: pointer;
 }
 .mobiles{
-    color: gray;
+    color: rgb(92, 84, 84);
 }
 .mobiles:hover{
     color: black;
     cursor: pointer;
 }
 .accessories{
-    color: gray;
+    color: rgb(92, 84, 84);
 }
 .accessories:hover{
     color: black;
@@ -78,6 +78,16 @@ table{
 .search{
     display: flex;
     justify-content: center;
+}
+.searchtest{
+    width: 400px;
+    height: 40px;
+}
+.searchicon{
+    width: 40px;
+    height: 40px;
+    margin-top: -40px;
+    margin-left: 60%;
 }
 .cart{
     width: 100px;
@@ -122,7 +132,7 @@ main{
     to   {transform: rotate(10deg);}
 }
 nav{
-    width: 10%;
+    width: 11%;
     height: 70%;
     font-style: italic;
     background-color: rgb(44, 177, 218);
@@ -132,7 +142,7 @@ nav{
     font-size: 50px;
     writing-mode: vertical-lr;
     animation-name: rotateleft;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 3;
     animation-duration: 1s;
     opacity: 0.5;
     color: black;
@@ -148,7 +158,7 @@ section{
     to  {transform: rotate(-10deg);}
 }
 aside{
-    width: 10%;
+    width: 11%;
     height: 70%;
     font-style: italic;
     background-color: rgb(44, 177, 218);
@@ -159,7 +169,7 @@ aside{
     font-size: 50px;
     opacity: 0.5;
     animation-name: rotateright;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 3;
     animation-duration: 1s;
     color: black;
 }
@@ -180,6 +190,9 @@ aside{
     height: 35%;
     background-image: url(../images/mainimage/სამსუნგ.PNG);
     background-size: cover;
+}
+.contactus{
+    height: 50px;
 }
 .foottext{
     color: gray;
